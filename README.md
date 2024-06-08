@@ -7,6 +7,6 @@
 ![](https://img.shields.io/badge/-Swift-red.svg)
 
 <p align="center">
-   <a href="url"><img src="https://github.com/pamelahdrz/ImageFetcher/assets/139024919/ef240692-ac86-41ac-8ebd-6ae385becd2f" height="600" width="200"></a>
+   <a href="url"><img src="https://github.com/pamelahdrz/ImageFetcher/assets/139024919/ef240692-ac86-41ac-8ebd-6ae385becd2f" height="auto" width="200"></a>
 </p>
 
