@@ -18,6 +18,8 @@ final class ImageFetcherPresenter: ObservableObject {
     }
     
     func getImages() async {
-        images = await interactor.executeImagesFetcher()
+        Task { @MainActor in
+            images = await interactor.executeImagesFetcher()
+        }
     }
 }

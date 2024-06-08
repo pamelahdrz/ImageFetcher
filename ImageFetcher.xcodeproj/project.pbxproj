@@ -172,21 +172,13 @@
 		66739C182C13B96F0063801A /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				66739C1D2C13C6160063801A /* Model */,
 				66739BDF2C13A6D90063801A /* ImageFetcherView.swift */,
-				66739C202C13D3DA0063801A /* ImageFetcherInteractor.swift */,
 				66739BDD2C13A6D90063801A /* ImageFetcherApp.swift */,
 				66739C192C13C02C0063801A /* ImageFetcherPresenter.swift */,
+				66739C202C13D3DA0063801A /* ImageFetcherInteractor.swift */,
 				66739C1B2C13C1140063801A /* ImageFetcherInteractorImplementation.swift */,
 			);
 			path = Module;
-			sourceTree = "<group>";
-		};
-		66739C1D2C13C6160063801A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,7 +497,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -534,7 +526,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

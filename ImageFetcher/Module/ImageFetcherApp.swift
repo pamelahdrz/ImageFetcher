@@ -12,7 +12,6 @@ struct ImageFetcherApp: App {
     var body: some Scene {
         WindowGroup {
             ImageFetcherView()
-                .navigationTitle("Fetch Images")
         }
     }
 }

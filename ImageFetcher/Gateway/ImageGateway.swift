@@ -9,5 +9,5 @@ import Foundation
 import Alamofire
 
 protocol ImageGateway {
-    func fetchImageResponse(completionHandler: @escaping (AFDataResponse<[Images]>) -> ())
+    func fetchImageResponse() async throws -> [Images]
 }

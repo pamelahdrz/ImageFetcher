@@ -15,15 +15,13 @@ class ImageFetcherInteractorImplementation: ImageFetcherInteractor {
     }
     
     func executeImagesFetcher() async -> [Images] {
-        await withCheckedContinuation { continuation in
-            gateway.fetchImageResponse { (response) in
-                switch response.result {
-                case .success(let data):
-                    continuation.resume(returning: data)
-                case .failure(let error):
-                    print("Error: \(error.localizedDescription)")
-                }
+        var images: [Images] = []
+            do {
+                try await Task.sleep(for: .seconds(0.5))
+                images = try await gateway.fetchImageResponse()
+            } catch {
+                print("Error: \(error.localizedDescription)")
             }
-        }
+        return images
     }
 }
